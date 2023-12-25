@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c083bdda719f4e4ba18ae76131a5e2d, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  moveSpeed: 28
+  ballSpeed: 20
+  maxBallSpeed: 40
+  minBallSpeed: -40
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  timeToSpawm: 2
+  playerOne: {fileID: 6260598324924963521, guid: 91c618f4949a3e84ca91eb9e5d6e1c54,
+    type: 3}
+  playerTwo: {fileID: 3925763199393253331, guid: b57c2f85bc3d5564495a7f32bdf8f6f8,
+    type: 3}
+  ballObject: {fileID: 8644843354880085272, guid: a6aa508b601459740955b6080c9e91c3,
+    type: 3}
+  ballDestroyPartycle: {fileID: 2940332214652831999, guid: 1da2f01659722864c8aa6460cf004314,
+    type: 3}
+  impactBall: {fileID: 8300000, guid: db999d66a5104134aa1ae45b09f67963, type: 3}
+  destroyBallM1: {fileID: 8300000, guid: 95c16b40952724f4cbda4cc6dd57e8aa, type: 3}
+  winnerM1: {fileID: 8300000, guid: 568ad8cc7201373459f6973a83db54dd, type: 3}
+  timerOutM1: {fileID: 8300000, guid: 48fd4cad8795e5242b3c4876bd6bcf44, type: 3}
